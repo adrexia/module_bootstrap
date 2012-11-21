@@ -79,11 +79,18 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  .navbar-fixed-top {
+    position: static;
+    margin-bottom: $baseLineHeight;
+  }
   // Negative indent the now static "fixed" navbar
-  .navbar-fixed-top,
-  .navbar-fixed-bottom {
+  .navbar {
     margin-left: -20px;
     margin-right: -20px;
+  }
+  #layout.fixed-padding {
+    margin-top: 0px;
   }
   // Remove padding on container given explicit padding set on body
   .container-fluid {
